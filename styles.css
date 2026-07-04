@@ -1,1 +1,9 @@
-/*  your css code here. If applicable */
+/* When the container is hovered, turn all squares to coffee */
+#container:hover .square {
+  background-color: #6F4E37;
+}
+
+/* Except the specific square that is being hovered directly */
+#container .square:hover {
+  background-color: #E6E6FA;
+}/*  your css code here. If applicable */
